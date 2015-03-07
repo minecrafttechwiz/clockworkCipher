@@ -111,7 +111,7 @@ function decode() {
 function encode() {
     letter = prompt("Please enter your words.");
     letter.split("");
-    for (var i = 0; i =< letter.length; i++;) {
+    for (var i = 0; i <= letter.length; i++;) {
     switch (letter[i]) {
         case "a":
         case "A":
