@@ -53,51 +53,51 @@ function decode() {
     num = parseInt(num, 0);
     switch (num) {
         case 1:
-            document.write(decoding.one);
+            document.write(decoding.one + "</br>");
             stopNum();
             break;
         case 2:
-            document.write(decoding.two);
+            document.write(decoding.two + "</br>");
             stopNum();
             break;
         case 3:
-            document.write(decoding.three);
+            document.write(decoding.three + "</br>");
             stopNum();
             break;
         case 4:
-            document.write(decoding.four);
+            document.write(decoding.four + "</br>");
             stopNum();
             break;
         case 5:
-            document.write(decoding.five);
+            document.write(decoding.five + "</br>");
             stopNum();
             break;
         case 6:
-            document.write(decoding.six);
+            document.write(decoding.six + "</br>");
             stopNum();
             break;
         case 7:
-            document.write(decoding.seven);
+            document.write(decoding.seven + "</br>");
             stopNum();
             break;
         case 8:
-            document.write(decoding.eight);
+            document.write(decoding.eight + "</br>");
             stopNum();
             break;
         case 9:
-            document.write(decoding.nine);
+            document.write(decoding.nine + "</br>");
             stopNum();
             break;
         case 10:
-            document.write(decoding.ten);
+            document.write(decoding.ten + "</br>");
             stopNum();
             break;
         case 11:
-            document.write(decoding.eleven);
+            document.write(decoding.eleven + "</br>");
             stopNum();
             break;
         case 12:
-            document.write(decoding.twelve);
+            document.write(decoding.twelve + "</br>");
             stopNum();
             break;
         default:
@@ -118,7 +118,7 @@ function encode() {
         case "y":
         case "Y":
         case "8":
-            document.write("1");
+            document.write("1 ");
             stopLetter();
             break;
         case "b":
@@ -128,7 +128,7 @@ function encode() {
         case "z":
         case "Z":
         case "9":
-            document.write("2");
+            document.write("2 ");
             stopLetter();
             break;
         case "c":
@@ -136,7 +136,7 @@ function encode() {
         case "o":
         case "O":
         case "0":
-            document.write("3");
+            document.write("3 ");
             stopLetter();
             break;
         case "d":
@@ -145,7 +145,7 @@ function encode() {
         case "P":
         case "!":
         case "?":
-            document.write("4");
+            document.write("4 ");
             stopLetter();
             break;
         case "e":
@@ -154,7 +154,7 @@ function encode() {
         case "Q":
         case ".":
         case ",":
-            document.write("5");
+            document.write("5 ");
             stopLetter();
             break;
         case "f":
@@ -162,7 +162,7 @@ function encode() {
         case "r":
         case "R":
         case "1":
-            document.write("6");
+            document.write("6 ");
             stopLetter();
             break;
         case "g":
@@ -170,7 +170,7 @@ function encode() {
         case "s":
         case "S":
         case "2":
-            document.write("7");
+            document.write("7 ");
             stopLetter();
             break;
         case "h":
@@ -178,7 +178,7 @@ function encode() {
         case "t":
         case "T":
         case "3":
-            document.write("8");
+            document.write("8 ");
             stopLetter();
             break;
         case "i":
@@ -186,7 +186,7 @@ function encode() {
         case "u":
         case "U":
         case "4":
-            document.write("9");
+            document.write("9 ");
             stopLetter();
             break;
         case "j":
@@ -194,7 +194,7 @@ function encode() {
         case "v":
         case "V":
         case "5":
-            document.write("10");
+            document.write("10 ");
             stopLetter();
             break;
         case "k":
@@ -202,7 +202,7 @@ function encode() {
         case "w":
         case "W":
         case "6":
-            document.write("11");
+            document.write("11 ");
             stopLetter();
             break;
         case "l":
@@ -210,7 +210,7 @@ function encode() {
         case "x":
         case "X":
         case "7":
-            document.write("12");
+            document.write("12 ");
             stopLetter();
             break;
         default:
