@@ -31,8 +31,8 @@ function sessionType() {
 }
 
 function stopNum() {
-    var stoppingNum = confirm("Is that it?");
-    if (stoppingNum === true) {
+    var stoppingNum = confirm("Anything else?");
+    if (stoppingNum === false) {
         num = null;
     } else {
         num = 0;
@@ -40,8 +40,8 @@ function stopNum() {
 }
 
 function stopLetter() {
-    var stoppingLetter = confirm("Is that it?");
-    if (stoppingLetter === true) {
+    var stoppingLetter = confirm("Anything else?");
+    if (stoppingLetter === false) {
         letter = null;
     } else {
         letter = "null";
