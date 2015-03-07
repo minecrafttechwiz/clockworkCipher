@@ -109,8 +109,10 @@ function decode() {
 }
 
 function encode() {
-    letter = prompt("Please enter your letters one by one.");
-    switch (letter) {
+    letter = prompt("Please enter your words.");
+    letter.split("");
+    for (i in letter) {
+    switch (letter[i]) {
         case "a":
         case "A":
         case "m":
@@ -218,6 +220,7 @@ function encode() {
             letter = "null";
             stopLetter();
             break;
+    }
     }
 }
 
