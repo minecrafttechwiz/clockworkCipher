@@ -109,10 +109,12 @@ function decode() {
 }
 
 function encode() {
+	var text = "";
     letter = prompt("Please enter your words.");
     letter.split("");
-    for (var i = 0; i <= letter.length; i++;) {
-    switch (letter[i]) {
+    for (var i = 0; i == letter.length; i++;) {
+    text = letter;
+    switch (text) {
         case "a":
         case "A":
         case "m":
