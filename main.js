@@ -229,6 +229,8 @@ function encode() {
             console.log("12 ");
   //          stopLetter();
             break;
+        case " ":
+            break;
         default:
             alert("This will not work. Try again.");
             letter = "null";
