@@ -181,8 +181,8 @@ function encode() {
         case "S":
         case "2":
             document.write("7 ");
-//            console.log("7 ");
-            stopLetter();
+            console.log("7 ");
+//            stopLetter();
             break;
         case "h":
         case "H":
@@ -228,6 +228,8 @@ function encode() {
             document.write("12 ");
             console.log("12 ");
   //          stopLetter();
+            break;
+        case " ":
             break;
         default:
             alert("This will not work. Try again.");
