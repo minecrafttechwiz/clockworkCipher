@@ -123,6 +123,7 @@ function encode() {
         case "Y":
         case "8":
             document.write("1 ");
+            console.log("1 ");
             stopLetter();
             break;
         case "b":
@@ -133,6 +134,7 @@ function encode() {
         case "Z":
         case "9":
             document.write("2 ");
+            console.log("2 ");
             stopLetter();
             break;
         case "c":
@@ -141,6 +143,7 @@ function encode() {
         case "O":
         case "0":
             document.write("3 ");
+            console.log("3 ");
             stopLetter();
             break;
         case "d":
@@ -150,6 +153,7 @@ function encode() {
         case "!":
         case "?":
             document.write("4 ");
+            console.log("4 ");
             stopLetter();
             break;
         case "e":
@@ -159,6 +163,7 @@ function encode() {
         case ".":
         case ",":
             document.write("5 ");
+            console.log("5 ");
             stopLetter();
             break;
         case "f":
@@ -167,6 +172,7 @@ function encode() {
         case "R":
         case "1":
             document.write("6 ");
+            console.log("6 ");
             stopLetter();
             break;
         case "g":
@@ -175,6 +181,7 @@ function encode() {
         case "S":
         case "2":
             document.write("7 ");
+            console.log("7 ");
             stopLetter();
             break;
         case "h":
@@ -183,6 +190,7 @@ function encode() {
         case "T":
         case "3":
             document.write("8 ");
+            console.log("8 ");
             stopLetter();
             break;
         case "i":
@@ -191,6 +199,7 @@ function encode() {
         case "U":
         case "4":
             document.write("9 ");
+            console.log("9 ");
             stopLetter();
             break;
         case "j":
@@ -199,6 +208,7 @@ function encode() {
         case "V":
         case "5":
             document.write("10 ");
+            console.log("10 ");
             stopLetter();
             break;
         case "k":
@@ -207,6 +217,7 @@ function encode() {
         case "W":
         case "6":
             document.write("11 ");
+            console.log("11 ");
             stopLetter();
             break;
         case "l":
@@ -215,6 +226,7 @@ function encode() {
         case "X":
         case "7":
             document.write("12 ");
+            console.log("12 ");
             stopLetter();
             break;
         default:
