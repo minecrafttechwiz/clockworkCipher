@@ -29,7 +29,7 @@ function sessionType() {
         }
     }
 }
-
+/*
 function stopNum() {
     var stoppingNum = confirm("Anything else?");
     if (stoppingNum === false) {
@@ -47,42 +47,46 @@ function stopLetter() {
         letter = "null";
     }
 }
-
+*/
 function decode() {
     num = prompt("Please enter the numbers one by one.");
-    num = parseInt(num, 0);
-    switch (num) {
+    var textNum = "";
+    var arrNum = num.split(" ");
+for (var i = 0; i < arrNum.length; i++) {
+    textNum = arrNum[i];
+    textNum = parseInt(textNum, 0);
+    switch (textNum) {
         case 1:
             document.write(decoding.one + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 2:
             document.write(decoding.two + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 3:
             document.write(decoding.three + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 4:
             document.write(decoding.four + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 5:
             document.write(decoding.five + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 6:
             document.write(decoding.six + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 7:
             document.write(decoding.seven + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 8:
             document.write(decoding.eight + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 9:
             document.write(decoding.nine + "</br>");
@@ -90,27 +94,27 @@ function decode() {
             break;
         case 10:
             document.write(decoding.ten + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 11:
             document.write(decoding.eleven + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 12:
             document.write(decoding.twelve + "</br>");
-            stopNum();
+            //stopNum();
             break;
         default:
             alert("This will not work. Try again.");
             num = 0;
-            stopNum();
+            //stopNum();
             break;
     }
 }
 
 function encode() {
 	var text = "";
-    var letter = prompt("Please enter your words.");
+    letter = prompt("Please enter your words.");
     var array = letter.split("");
     for (var i = 0; i < array.length; i++) {
     text = array[i];
