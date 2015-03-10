@@ -181,8 +181,8 @@ function encode() {
         case "S":
         case "2":
             document.write("7 ");
-//            console.log("7 ");
-            stopLetter();
+            console.log("7 ");
+//            stopLetter();
             break;
         case "h":
         case "H":
