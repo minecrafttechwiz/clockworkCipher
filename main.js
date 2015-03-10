@@ -111,9 +111,9 @@ function decode() {
 function encode() {
 	var text = "";
     var letter = prompt("Please enter your words.");
-    letter.split("");
-    for (var i = 0; i < letter.length; i++) {
-    text = letter[i];
+    var array = letter.split("");
+    for (var i = 0; i < array.length; i++) {
+    text = array[i];
     switch (text) {
         case "a":
         case "A":
@@ -124,7 +124,7 @@ function encode() {
         case "8":
             document.write("1 ");
             console.log("1 ");
-            stopLetter();
+//            stopLetter();
             break;
         case "b":
         case "B":
@@ -135,7 +135,7 @@ function encode() {
         case "9":
             document.write("2 ");
             console.log("2 ");
-            stopLetter();
+//            stopLetter();
             break;
         case "c":
         case "C":
@@ -144,7 +144,7 @@ function encode() {
         case "0":
             document.write("3 ");
             console.log("3 ");
-            stopLetter();
+//            stopLetter();
             break;
         case "d":
         case "D":
@@ -154,7 +154,7 @@ function encode() {
         case "?":
             document.write("4 ");
             console.log("4 ");
-            stopLetter();
+//            stopLetter();
             break;
         case "e":
         case "E":
@@ -164,7 +164,7 @@ function encode() {
         case ",":
             document.write("5 ");
             console.log("5 ");
-            stopLetter();
+//            stopLetter();
             break;
         case "f":
         case "F":
@@ -173,7 +173,7 @@ function encode() {
         case "1":
             document.write("6 ");
             console.log("6 ");
-            stopLetter();
+//            stopLetter();
             break;
         case "g":
         case "G":
@@ -181,7 +181,7 @@ function encode() {
         case "S":
         case "2":
             document.write("7 ");
-            console.log("7 ");
+//            console.log("7 ");
             stopLetter();
             break;
         case "h":
@@ -191,7 +191,7 @@ function encode() {
         case "3":
             document.write("8 ");
             console.log("8 ");
-            stopLetter();
+  //          stopLetter();
             break;
         case "i":
         case "I":
@@ -200,7 +200,7 @@ function encode() {
         case "4":
             document.write("9 ");
             console.log("9 ");
-            stopLetter();
+  //          stopLetter();
             break;
         case "j":
         case "J":
@@ -209,7 +209,7 @@ function encode() {
         case "5":
             document.write("10 ");
             console.log("10 ");
-            stopLetter();
+  //          stopLetter();
             break;
         case "k":
         case "K":
@@ -218,7 +218,7 @@ function encode() {
         case "6":
             document.write("11 ");
             console.log("11 ");
-            stopLetter();
+  //          stopLetter();
             break;
         case "l":
         case "L":
@@ -227,12 +227,12 @@ function encode() {
         case "7":
             document.write("12 ");
             console.log("12 ");
-            stopLetter();
+  //          stopLetter();
             break;
         default:
             alert("This will not work. Try again.");
             letter = "null";
-            stopLetter();
+  //          stopLetter();
             break;
     }
     }
