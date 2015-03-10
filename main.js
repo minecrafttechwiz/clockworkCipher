@@ -110,7 +110,7 @@ function decode() {
 
 function encode() {
 	var text = "";
-    letter = prompt("Please enter your words.");
+    var letter = prompt("Please enter your words.");
     letter.split("");
     for (var i = 0; i < letter.length; i++) {
     text = letter[i];
