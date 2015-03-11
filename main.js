@@ -110,6 +110,7 @@ for (var i = 0; i < arrNum.length; i++) {
             //stopNum();
             break;
     }
+    }
 }
 
 function encode() {
