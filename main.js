@@ -29,25 +29,7 @@ function sessionType() {
         }
     }
 }
-/*
-function stopNum() {
-    var stoppingNum = confirm("Anything else?");
-    if (stoppingNum === false) {
-        num = null;
-    } else {
-        num = 0;
-    }
-}
 
-function stopLetter() {
-    var stoppingLetter = confirm("Anything else?");
-    if (stoppingLetter === false) {
-        letter = null;
-    } else {
-        letter = "null";
-    }
-}
-*/
 function decode() {
     num = prompt("Please enter the numbers one by one.");
     var textNum = "";
@@ -58,56 +40,39 @@ for (var i = 0; i < arrNum.length; i++) {
     switch (textNum) {
         case 1:
             document.write(decoding.one + "</br>");
-            //stopNum();
             break;
         case 2:
             document.write(decoding.two + "</br>");
-            //stopNum();
             break;
         case 3:
             document.write(decoding.three + "</br>");
-            //stopNum();
             break;
         case 4:
             document.write(decoding.four + "</br>");
-            //stopNum();
             break;
         case 5:
             document.write(decoding.five + "</br>");
-            //stopNum();
             break;
         case 6:
             document.write(decoding.six + "</br>");
-            //stopNum();
             break;
         case 7:
             document.write(decoding.seven + "</br>");
-            //stopNum();
             break;
         case 8:
             document.write(decoding.eight + "</br>");
-            //stopNum();
             break;
         case 9:
             document.write(decoding.nine + "</br>");
-            stopNum();
             break;
         case 10:
             document.write(decoding.ten + "</br>");
-            //stopNum();
             break;
         case 11:
             document.write(decoding.eleven + "</br>");
-            //stopNum();
             break;
         case 12:
             document.write(decoding.twelve + "</br>");
-            //stopNum();
-            break;
-        default:
-            alert("This will not work. Try again.");
-            num = 0;
-            //stopNum();
             break;
     }
     }
@@ -129,7 +94,6 @@ function encode() {
         case "8":
             document.write("1 ");
             console.log("1 ");
-//            stopLetter();
             break;
         case "b":
         case "B":
@@ -140,7 +104,6 @@ function encode() {
         case "9":
             document.write("2 ");
             console.log("2 ");
-//            stopLetter();
             break;
         case "c":
         case "C":
@@ -149,7 +112,6 @@ function encode() {
         case "0":
             document.write("3 ");
             console.log("3 ");
-//            stopLetter();
             break;
         case "d":
         case "D":
@@ -159,7 +121,6 @@ function encode() {
         case "?":
             document.write("4 ");
             console.log("4 ");
-//            stopLetter();
             break;
         case "e":
         case "E":
@@ -169,7 +130,6 @@ function encode() {
         case ",":
             document.write("5 ");
             console.log("5 ");
-//            stopLetter();
             break;
         case "f":
         case "F":
@@ -178,7 +138,6 @@ function encode() {
         case "1":
             document.write("6 ");
             console.log("6 ");
-//            stopLetter();
             break;
         case "g":
         case "G":
@@ -187,7 +146,6 @@ function encode() {
         case "2":
             document.write("7 ");
             console.log("7 ");
-//            stopLetter();
             break;
         case "h":
         case "H":
@@ -196,7 +154,6 @@ function encode() {
         case "3":
             document.write("8 ");
             console.log("8 ");
-  //          stopLetter();
             break;
         case "i":
         case "I":
@@ -205,7 +162,6 @@ function encode() {
         case "4":
             document.write("9 ");
             console.log("9 ");
-  //          stopLetter();
             break;
         case "j":
         case "J":
@@ -214,7 +170,6 @@ function encode() {
         case "5":
             document.write("10 ");
             console.log("10 ");
-  //          stopLetter();
             break;
         case "k":
         case "K":
@@ -223,7 +178,6 @@ function encode() {
         case "6":
             document.write("11 ");
             console.log("11 ");
-  //          stopLetter();
             break;
         case "l":
         case "L":
@@ -232,14 +186,8 @@ function encode() {
         case "7":
             document.write("12 ");
             console.log("12 ");
-  //          stopLetter();
             break;
         case " ":
-            break;
-        default:
-            alert("This will not work. Try again.");
-            letter = "null";
-  //          stopLetter();
             break;
     }
     }
