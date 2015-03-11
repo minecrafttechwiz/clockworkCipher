@@ -90,7 +90,7 @@ for (var i = 0; i < arrNum.length; i++) {
             break;
         case 9:
             document.write(decoding.nine + "</br>");
-            stopNum();
+            //stopNum();
             break;
         case 10:
             document.write(decoding.ten + "</br>");
