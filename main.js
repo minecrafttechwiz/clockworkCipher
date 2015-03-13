@@ -1,3 +1,4 @@
+window.done = false;
 var num = 0;
 var letter = "null";
 var decoding = {
@@ -16,6 +17,7 @@ var decoding = {
 };
 
 function sessionType() {
+if (window.done == true){
     var session = confirm("Do you want to encode or decode with the cypher? (Encode = OK, Decode = Cancel)");
     if (session === true) {
 	document.write("Encoded Output: </br>");
@@ -28,10 +30,14 @@ function sessionType() {
             decode();
         }
     }
+}else{
+alert("Please attach a document.");
+}
 }
 
 function decode() {
-    num = prompt("Please enter the numbers one by one.");
+    //num = prompt("Please enter the numbers one by one.");
+	num = window.finalText;
     var textNum = "";
     var arrNum = num.split(" ");
 for (var i = 0; i < arrNum.length; i++) {
@@ -80,7 +86,8 @@ for (var i = 0; i < arrNum.length; i++) {
 
 function encode() {
 	var text = "";
-    letter = prompt("Please enter your words.");
+    //letter = prompt("Please enter your words.");
+	letter = window.finalText;
     var array = letter.split("");
     for (var i = 0; i < array.length; i++) {
     text = array[i];
@@ -192,5 +199,3 @@ function encode() {
     }
     }
 }
-
-sessionType();
